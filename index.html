@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Guessing Game - JS</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+          <div class="container">
+               <h1 id="title">Number Guessing Game Using JavaScript.</h1>
+          </div>
+     </header>
+
+     <section>
+          <div class="container">
+               <div class="game-container">
+                    <h1 id="header">Guess No. Between (0 to 20)</h1>
+                    <h1 class="secret-number">?</h1>
+                    <h1 id="line"></h1>
+                    <div class="inner-container">
+                         <div class="guessing-input">
+                              <input type="text" class="guess" placeholder="Enter Number">
+                         </div>
+                         <div class="messages-and-scores">
+                              <p class="text message">Starting to Guess....</p>
+                              <div class="scores">
+                                   <h2 class="lifetime-title">Lifetime: <span class="lifetime">10</span></h2>
+                                   <h2 class="high-score-title">High Score: <span class="high-score">0</span></h2>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="buttons">
+                         <button class="btn Guess">Guess</button>
+                         <button class="btn Again">Again</button>
+                         <button class="btn Reset">Reset Game</button>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <footer>
+          <div class="container">
+               <p>Developed by: Isiyak Solomon</p>
+          </div>
+     </footer>
+     <script src="script.js"></script>
+</body>
+</html>
